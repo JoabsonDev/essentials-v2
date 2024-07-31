@@ -1,0 +1,42 @@
+.c-btn {
+  border-radius: 0.25rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-wrap: nowrap;
+}
+.c-btn.c-btn--primary,
+.c-btn.c-btn--outline:hover {
+  color: var(--color-light-100);
+  background: var(--highlight);
+  border: 0.0625rem solid var(--highlight);
+}
+
+.c-btn.c-btn--primary {
+  --highlight: var(--color-primary-200);
+}
+.c-btn.c-btn--primary:hover {
+  --highlight: var(--color-primary-400);
+}
+.c-btn.c-btn--outline {
+  background-color: transparent;
+  color: var(--highlight);
+  border-color: var(--highlight);
+}
+.c-btn.c-btn--outline:hover {
+  background-color: var(--highlight);
+  color: var(--color-light-100);
+}
+.c-btn.c-btn--small {
+  padding: 0.75rem 1.125rem;
+  border-radius: 0.5rem;
+}
+.c-btn.c-btn--large {
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.875rem;
+}

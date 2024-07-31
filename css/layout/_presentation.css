@@ -1,0 +1,28 @@
+.l-presentation {
+  padding-top: 8.75rem;
+}
+.l-presentation h1 {
+  line-height: 1.2;
+}
+.l-presentation p {
+  margin-block: 1.25rem 1.875rem;
+  font-size: 1.125rem;
+  color: var(--color-gray-500);
+  line-height: 1.875rem;
+}
+.l-presentation .l-presentation__content {
+  align-items: center;
+}
+.l-presentation .c-btn {
+  --highlight: var(--color-primary-300);
+  box-shadow: var(--box-shadow-large);
+  text-shadow: var(--text-shadow);
+  letter-spacing: 0.0625rem;
+  padding: 1.25rem 1.875rem;
+}
+.l-presentation .c-btn:hover {
+  --highlight: var(--color-primary-100);
+}
+.l-presentation .c-btn:hover {
+  box-shadow: var(--box-shadow-hover);
+}
