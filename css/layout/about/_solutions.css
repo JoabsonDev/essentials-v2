@@ -1,0 +1,22 @@
+.l-solutions .l-solutions__cards {
+  padding-inline: 1rem;
+  padding: 0rem;
+}
+
+.l-solutions__title {
+  font-size: 1.75rem;
+}
+
+.l-solutions__description {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: var(--color-gray-200);
+  text-align: center;
+  padding: 0.625rem;
+  margin-bottom: 1.5625rem;
+  line-height: 1.75rem;
+}
+.l-solutions img {
+  margin-bottom: 1.5rem;
+  width: 70%;
+}
