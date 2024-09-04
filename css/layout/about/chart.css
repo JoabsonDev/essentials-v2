@@ -1,0 +1,46 @@
+.l-chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.l-chart i {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background-color: #fcfcfc;
+  color: var(--color-primary-400);
+  padding: 1.25rem;
+  margin: 1.5rem;
+  border-radius: 50%;
+  border: 0.0625rem solid #eaeaea;
+}
+
+.l-chart img {
+  width: 40rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow-large);
+  margin-left: 0.5rem;
+}
+
+.chart__description p {
+  font-size: 1.125rem;
+  color: var(--color-gray-200);
+  margin-bottom: 1rem;
+  line-height: 1.75rem;
+}
+
+.chart__icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.chart__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 31.875rem;
+}
+
+.chart__description {
+  margin: 0.75rem;
+}
