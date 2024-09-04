@@ -10,37 +10,35 @@
   background-color: #fcfcfc;
   color: var(--color-primary-400);
   padding: 1.25rem;
-  margin: 1.5rem;
+  justify-content: center;
   border-radius: 50%;
-  border: 0.0625rem solid #eaeaea;
+  border: 0.0625rem solid #efefef;
+  margin: 0.625rem 1.5625rem 1.5625rem 0rem;
 }
 
 .l-chart img {
-  width: 40rem;
+  width: 540px;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow-large);
-  margin-left: 0.5rem;
+  margin-left: 1rem;
 }
 
-.chart__description p {
+.l-chart__description p {
   font-size: 1.125rem;
   color: var(--color-gray-200);
   margin-bottom: 1rem;
   line-height: 1.75rem;
 }
 
-.chart__icons {
+.l-chart__info {
   display: flex;
   flex-direction: column;
-}
-
-.chart__info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 60px;
   width: 31.875rem;
+  /* gap: 0.75rem; */
 }
 
-.chart__description {
-  margin: 0.75rem;
+.l-chart__description {
+  display: flex;
+  align-items: center;
 }
