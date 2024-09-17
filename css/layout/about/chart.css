@@ -9,7 +9,6 @@
   font-size: 40px;
   width: 80px;
   height: 80px;
-  align-items: center;
   font-weight: 900;
   padding: 1.25rem;
   background-color: #fcfcfc;
@@ -19,7 +18,7 @@
 }
 
 .l-chart img {
-  width: 540px;
+  max-width: 40%;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow-large);
   margin-left: 1rem;
@@ -34,7 +33,7 @@
 .l-chart__info {
   display: flex;
   flex-direction: column;
-  width: 510px;
+  width: 40%;
 }
 
 .l-chart__description {
