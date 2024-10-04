@@ -12,17 +12,24 @@
 
 .l-pricing__cards {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .l-pricing__cards__card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0rem 1rem;
   padding: 2.5rem 3.5rem;
   box-shadow: 0 0.5rem 2.5rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
+  border: 2px solid var(--color-light-300);
+}
+
+.l-pricing__cards__card:hover {
+  border-bottom: 2px solid var(--color-primary-200);
 }
 
 .l-pricing__cards__card h1 {
@@ -53,7 +60,7 @@
 
 .l-pricing__cards__list {
   color: var(--color-gray-300);
-  line-height: 1.75rem;
+  line-height: 24px;
 }
 
 .l-pricing__cards__list i {
@@ -73,4 +80,9 @@
   border-radius: 0.25rem;
   border: 0.0625rem solid var(--color-primary-200);
   margin-top: 1rem;
+}
+
+.l-pricing__cards__btn:hover {
+  background-color: var(--color-primary-200);
+  color: var(--color-light-100);
 }
