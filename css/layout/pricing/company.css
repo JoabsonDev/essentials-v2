@@ -1,0 +1,33 @@
+.l-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0 24px 0;
+}
+
+.l-company h2 {
+  font-size: 1.75rem;
+}
+
+.l-company__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.l-company__list__logo li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.4;
+  margin-top: 28px;
+}
+
+.l-company__list__logo li:hover {
+  opacity: 0.8;
+  transition: ease-in-out 0.25s;
+}
+
+.l-company__list__logo img {
+  max-height: 62px;
+}
