@@ -33,7 +33,6 @@
 
     <!-- local scripts -->
     <script src="./js/script.js" defer></script>
-    <script src="/acordeon.html" defer></script>
 
     <!-- local styles -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -279,9 +278,14 @@
               </div>
 
               <div class="l-pricing__cards__card">
+                <div class="c-ribbon">
+                  <span>Popular</span>
+                </div>
+
                 <h1>STANDARD</h1>
                 <h4>$99</h4>
                 <p>Per Month</p>
+
                 <ul class="l-pricing__cards__group__list">
                   <li class="l-pricing__cards__list">
                     <i class="fa-solid fa-check"></i>
@@ -303,7 +307,11 @@
                     Full Reports History
                   </li>
                 </ul>
-                <button class="l-pricing__cards__btn">Free 15-DAY TRIAL</button>
+                <button
+                  class="l-pricing__cards__btn l-pricing__cards__btn--active"
+                >
+                  Free 15-DAY TRIAL
+                </button>
               </div>
 
               <div class="l-pricing__cards__card">
@@ -358,31 +366,34 @@
 
         <article class="l-company l-box l-box--border">
           <h2>Trusted by over 250 great businesses</h2>
-          <ul class="l-company__list__logo l-box__body">
-            <li>
-              <img
-                src="https://demo.epic-webdesign.com/tf-essentials/v1/images/award4a.png"
-              />
-            </li>
 
-            <li>
-              <img
-                src="https://demo.epic-webdesign.com/tf-essentials/v1/images/award1a.png"
-              />
-            </li>
+          <div class="l-box__body">
+            <ul class="l-company__list">
+              <li class="l-company__list__item">
+                <img
+                  src="https://demo.epic-webdesign.com/tf-essentials/v1/images/award4a.png"
+                />
+              </li>
 
-            <li>
-              <img
-                src="https://demo.epic-webdesign.com/tf-essentials/v1/images/award5.png"
-              />
-            </li>
+              <li class="l-company__list__item">
+                <img
+                  src="https://demo.epic-webdesign.com/tf-essentials/v1/images/award1a.png"
+                />
+              </li>
 
-            <li>
-              <img
-                src="	https://demo.epic-webdesign.com/tf-essentials/v1/images/award3a.png"
-              />
-            </li>
-          </ul>
+              <li class="l-company__list__item">
+                <img
+                  src="https://demo.epic-webdesign.com/tf-essentials/v1/images/award5.png"
+                />
+              </li>
+
+              <li class="l-company__list__item">
+                <img
+                  src="	https://demo.epic-webdesign.com/tf-essentials/v1/images/award3a.png"
+                />
+              </li>
+            </ul>
+          </div>
         </article>
 
         <article class="l-ask l-box l-box--border">
@@ -392,52 +403,61 @@
             />
             <div class="l-ask__questions">
               <h2>Frequently Asked Questions</h2>
-              <div class="l-ask__questions__acordeon">
-                <div class="l-ask__questions__acordeon__card">
-                  <div class="acordeon__card__title">
+
+              <div class="c-accordion">
+                <div class="c-accordion__item c-accordion__item--active">
+                  <button class="c-accordion__item__header">
                     Email and user settings
-                  </div>
-                  <div class="acordeon__card__content">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                    netsum loris fugit, sed quia magni dolores eos qui ratione
-                    sequi nesciunt, neque et quis autem velis reprehenderit ets
-                    quis velit.
+                  </button>
+                  <div class="c-accordion__item__content">
+                    <p>
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                      netsum loris fugit, sed quia magni dolores eos qui ratione
+                      sequi nesciunt, neque et quis autem velis reprehenderit
+                      ets quis velit.
+                    </p>
                   </div>
                 </div>
 
-                <div class="l-ask__questions__acordeon__card">
-                  <div class="acordeon__card__title">
+                <div class="c-accordion__item">
+                  <button class="c-accordion__item__header">
                     Important new billing system data
-                  </div>
-                  <div class="acordeon__card__content">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                    netsum loris fugit, sed quia magni dolores eos qui ratione
-                    sequi nesciunt, neque et quis autem velis reprehenderit ets
-                    quis velit.
+                  </button>
+                  <div class="c-accordion__item__content">
+                    <p>
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                      netsum loris fugit, sed quia magni dolores eos qui ratione
+                      sequi nesciunt, neque et quis autem velis reprehenderit
+                      ets quis velit.
+                    </p>
                   </div>
                 </div>
 
-                <div class="l-ask__questions__acordeon__card">
-                  <div class="acordeon__card__title">
+                <div class="c-accordion__item">
+                  <button class="c-accordion__item__header">
                     Working with integrated apps
-                  </div>
-                  <div class="acordeon__card__content">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                    netsum loris fugit, sed quia magni dolores eos qui ratione
-                    sequi nesciunt, neque et quis autem velis reprehenderit ets
-                    quis velit.
+                  </button>
+                  <div class="c-accordion__item__content">
+                    <p>
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                      netsum loris fugit, sed quia magni dolores eos qui ratione
+                      sequi nesciunt, neque et quis autem velis reprehenderit
+                      ets quis velit.
+                    </p>
                   </div>
                 </div>
 
-                <div class="l-ask__questions__acordeon__card">
-                  <div class="acordeon__card__title">
+                <div class="c-accordion__item">
+                  <button class="c-accordion__item__header">
                     Two-factory authentication
-                  </div>
-                  <div class="acordeon__card__content">
-                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                    netsum loris fugit, sed quia magni dolores eos qui ratione
-                    sequi nesciunt, neque et quis autem velis reprehenderit ets
-                    quis velit.
+                  </button>
+                  <div class="c-accordion__item__content">
+                    <p>
+                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                      netsum loris fugit, sed quia magni dolores eos qui ratione
+                      sequi nesciunt, neque et quis autem velis reprehenderit
+                      ets quis velit.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -25,11 +25,13 @@
   padding: 2.5rem 3.5rem;
   box-shadow: 0 0.5rem 2.5rem 0 rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
-  border: 2px solid var(--color-light-300);
+  border-bottom: 3px solid var(--color-light-300);
+  transition: border-bottom 300ms ease-in-out;
+  position: relative;
 }
 
 .l-pricing__cards__card:hover {
-  border-bottom: 2px solid var(--color-primary-200);
+  border-bottom: 3px solid var(--color-primary-200);
 }
 
 .l-pricing__cards__card h1 {
@@ -70,6 +72,7 @@
   line-height: 1.75rem;
 }
 
+/* TODO: usar o btn já existente. Caso precise, use uma classe de contexto para modificá-lo. */
 .l-pricing__cards__btn {
   color: var(--color-primary-200);
   background-color: white;
@@ -82,7 +85,14 @@
   margin-top: 1rem;
 }
 
-.l-pricing__cards__btn:hover {
-  background-color: var(--color-primary-200);
+.l-pricing__cards__btn:hover,
+.l-pricing__cards__btn.l-pricing__cards__btn--active {
   color: var(--color-light-100);
+}
+
+.l-pricing__cards__btn.l-pricing__cards__btn--active {
+  background-color: var(--color-primary-200);
+}
+.l-pricing__cards__btn:hover {
+  background-color: var(--color-primary-400);
 }
