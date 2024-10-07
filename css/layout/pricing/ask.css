@@ -1,0 +1,44 @@
+.l-ask__content {
+  display: flex;
+  align-items: center;
+}
+
+.l-ask__content img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+.l-ask__questions h3 {
+  font-size: 20px;
+  font-family: var(--font-family-dosis);
+}
+
+.l-ask__questions__card {
+  font-size: 1rem;
+  font-family: var(--font-family-open-sans);
+  color: var(--color-gray-200);
+  border-top: 2px solid var(--color-primary-200);
+}
+
+.l-ask__questions__acordeon {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.acordeon__card__title {
+  color: var(--color-primary-900);
+  font-size: 1.25rem;
+  padding: 8px 0px;
+  cursor: pointer;
+  position: relative;
+  font-weight: bold;
+}
+
+.acordeon__card__content {
+  display: none;
+  padding: 8px 0px;
+  color: var(--color-gray-200);
+  font-family: var(--font-family-open-sans);
+  font-size: 1rem;
+  border-top: 2px solid var(--color-primary-200);
+}
