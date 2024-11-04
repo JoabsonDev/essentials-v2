@@ -1,0 +1,80 @@
+.l-team__card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.l-team__cards__card img {
+  max-width: 100%;
+  margin-bottom: 0.25rem;
+}
+
+.l-team__cards__divider {
+  width: 3.125rem;
+  margin: 1rem 0rem;
+  border: none;
+  border-bottom: 0.1875rem solid var(--color-primary-200);
+}
+
+.l-team__card__info strong {
+  color: var(--color-gray-400);
+  font-weight: 600;
+  margin: 0.25rem 0rem;
+}
+
+.l-team__card__info span {
+  font-style: italic;
+  color: var(--color-gray-100);
+  margin-bottom: 0.25rem;
+}
+
+.l-team__card__info p {
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 12px;
+  color: var(--color-gray-200);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.l-team__social {
+  display: flex;
+  align-items: center;
+  margin: 28px 0px;
+}
+
+.twitter {
+  color: white;
+  background-color: var(--color-twitter);
+  margin: 0rem 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.pinterest {
+  color: white;
+  background-color: var(--color-pinterest);
+  margin: 0rem 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.linkedin {
+  color: white;
+  background-color: var(--color-linkedin);
+  margin: 0rem 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+}
+
+.basketball {
+  color: white;
+  background-color: var(--color-dribbble);
+  margin: 0rem 0.25rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+}
