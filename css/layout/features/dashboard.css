@@ -22,6 +22,7 @@
 .l-dashboard__info {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 32px;
 }
 
@@ -41,12 +42,12 @@
   color: var(--color-primary-200);
 }
 
+.l-dashboard__info button {
+  margin-top: 30px;
+  letter-spacing: 1px;
+  box-shadow: var(--box-shadow-large);
+}
+
 .l-dashboard__info span {
   color: var(--color-gray-200);
 }
-
-/* .btn__dashboard {
-  color: var(--color-light-100);
-  background: var(--color-primary-300);
-  border: 0.0625rem solid var(--highlight);
-} */
