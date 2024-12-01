@@ -45,3 +45,7 @@
   background-color: var(--color-light-300);
   margin: 0px 4px;
 }
+
+.l-comment__divider__line:hover {
+  background-color: var(--color-primary-200);
+}
