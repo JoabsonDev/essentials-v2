@@ -1,0 +1,9 @@
+.l-ask__content img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  align-self: center;
+}
+
+.l-ask__questions h2 {
+  font-size: 30px;
+}

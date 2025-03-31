@@ -1,0 +1,37 @@
+.c-accordion .c-accordion__item {
+  display: grid;
+  grid-template-rows: 2.875rem 0fr;
+  transition: grid-template-rows 250ms ease;
+}
+.c-accordion .c-accordion__item--active {
+  grid-template-rows: 2.875rem 1fr;
+}
+
+.c-accordion .c-accordion__item .c-accordion__item__header {
+  color: var(--color-primary-900);
+  font-size: 1.25rem;
+  padding: 8px 0px;
+  cursor: pointer;
+  position: relative;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid var(--color-light-200);
+  background-color: transparent;
+}
+
+.c-accordion .c-accordion__item .c-accordion__item__content {
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  color: var(--color-gray-200);
+  font-family: var(--font-family-open-sans);
+  font-size: 1rem;
+}
+
+.c-accordion__item.c-accordion__item--active .c-accordion__item__content {
+  max-height: 500px;
+  padding: 8px 0px;
+  border-top: 2px solid var(--color-primary-200);
+}

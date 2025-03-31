@@ -40,6 +40,7 @@
 .l-box__body.l-box__body--full {
   --container: 100%;
 }
+
 .l-box__body:not(.l-box__body--full) > * {
   flex: 1 0 240px;
   max-width: 50%;

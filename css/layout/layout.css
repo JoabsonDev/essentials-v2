@@ -3,3 +3,8 @@
 @import "./presentation.css";
 @import "./about/about.css";
 @import "./pricing/pricing.css";
+@import "./team/team.css";
+@import "./features/features.css";
+@import "./blog/blog.css";
+@import "./contact/contact.css";
+@import "./footer/footer.css";

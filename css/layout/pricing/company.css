@@ -1,0 +1,30 @@
+.l-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0 24px 0;
+}
+
+.l-company h2 {
+  font-size: 1.75rem;
+}
+
+.l-company .l-company__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: initial;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.l-company__list .l-company__list__item img {
+  max-height: 62px;
+  opacity: 0.4;
+  transition: all 0.25s ease-in-out;
+}
+
+.l-company__list .l-company__list__item img:hover {
+  opacity: 0.8;
+}
